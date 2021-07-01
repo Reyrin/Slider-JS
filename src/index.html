@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple and beautiful slider">
+    <meta name="keywords" content="HTML5, CSS, JS">
+    <meta name="author" content="Reyrin">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>Slider-JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div style="background: linear-gradient(229.99deg, #759069 -26%, #cd801c 145%);" class="sidebar__slide">
+                <h1 class="sidebar__pic">Ritratto di Monna Lisa del Giocondo</h1>
+                <p class="sidebar__author">Leonardo da Vinci</p>
+            </div>
+            <div style="background: linear-gradient(229.99deg, #140a1b -26%, #017E8B 145%);" class="sidebar__slide">
+                <h1 class="sidebar__pic">Het meisje met de parel</h1>
+                <p class="sidebar__author">Jan Vermeer van Delft</p>
+            </div>
+            <div style="background: linear-gradient(229.99deg, #6b4413 -26%, #66aac3 145%);" class="sidebar__slide">
+                <h1 class="sidebar__pic">Dama con l'ermellino</h1>
+                <p class="sidebar__author">Leonardo da Vinci</p>
+            </div>
+            <div style="background: linear-gradient(229.99deg, #0a0509 -26%, #883528 145%);" class="sidebar__slide">
+                <h1 class="sidebar__pic">Portrait of Birgitta Hohlenberg</h1>
+                <p class="sidebar__author">Adolf Jensen</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div style="background-image: url('img/mona.jpg');" class="main__slide"></div>
+            <div style="background-image: url('img/pearl.jpg');" class="main__slide"></div>
+            <div style="background-image: url('img/ermine.jpg');" class="main__slide"></div>
+            <div style="background-image: url('img/brigitte.jpg');" class="main__slide"></div>
+        </div>
+
+        <div class="controls">
+            <button class="controls__up">
+                <img src="img/arrow.svg" alt="Up">
+            </button>
+            <button class="controls__down">
+                <img src="img/arrow.svg" alt="Down">
+            </button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
