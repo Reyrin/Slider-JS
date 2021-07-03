@@ -9,7 +9,7 @@
 
 ## Installation
 ```
-https://github.com/Reyrin/Slider-JS.git
+git clone https://github.com/Reyrin/Slider-JS.git
 ```
 ## Installing dependencies
 ```
